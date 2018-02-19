@@ -27,7 +27,7 @@ function createSave()
 function edit($id)
 {
 	render("Lijst/edit", array(
-		'lijst' => getLijst($id)
+		'Lijst' => getLijst($id)
 	));
 }
 

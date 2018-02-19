@@ -1,6 +1,6 @@
 <?php
 
-require(ROOT . "model/StudentModel.php");
+require(ROOT . "model/StatusModel.php");
 
 function index()
 {

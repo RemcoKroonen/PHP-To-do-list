@@ -11,5 +11,6 @@
 	<ul>
 		<li><a href="<?= URL ?>home/index">Home</a></li>
 		<li><a href="<?= URL ?>Lijst/index">Lijst</a></li>
+		<li><a href="<?= URL ?>Taak/index">Taak</a></li>
 	</ul>
 	</nav>

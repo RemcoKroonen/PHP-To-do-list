@@ -1,52 +1,52 @@
 <?php
 
-require(ROOT . "model/StudentModel.php");
+require(ROOT . "model/TaakModel.php");
 
 function index()
 {
-	render("student/index", array(
-		'students' => getAllStudents()
+	render("Taak/index", array(
+		'Taken' => getAllTaken()
 	));
 }
 
 function create()
 {
-	render("student/create");
+	render("Taak/create");
 }
 
 function createSave()
 {
-	if (!createStudent()) {
+	if (!createTaak()) {
 		header("Location:" . URL . "error/index");
 		exit();
 	}
 
-	header("Location:" . URL . "student/index");
+	header("Location:" . URL . "Taak/index");
 }
 
 function edit($id)
 {
-	render("student/edit", array(
-		'student' => getStudent($id)
+	render("Taak/edit", array(
+		'taak' => getTaak($id)
 	));
 }
 
 function editSave()
 {
-	if (!editStudent()) {
+	if (!editTaak()) {
 		header("Location:" . URL . "error/index");
 		exit();
 	}
 
-	header("Location:" . URL . "student/index");
+	header("Location:" . URL . "Taak/index");
 } 
 
 function delete($id)
 {
-	if (!deleteStudent($id)) {
+	if (!deleteTaak($id)) {
 		header("Location:" . URL . "error/index");
 		exit();
 	}
 
-	header("Location:" . URL . "student/index");
+	header("Location:" . URL . "Taak/index");
 }
