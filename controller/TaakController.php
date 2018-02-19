@@ -27,7 +27,7 @@ function createSave()
 function edit($id)
 {
 	render("Taak/edit", array(
-		'taak' => getTaak($id)
+		'Taak' => getTaak($id)
 	));
 }
 

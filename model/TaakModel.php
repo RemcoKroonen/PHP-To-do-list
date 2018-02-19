@@ -43,7 +43,7 @@ function editTaak()
 	
 	$db = openDatabaseConnection();
 
-	$sql = "UPDATE taken SET naam = :naam, omschrijving = :omschrijving, duur = :duur, status_id = :status_id, lijst_id, = :lijst_id, id = :id WHERE id = :id";
+	$sql = "UPDATE taken SET naam = :naam, omschrijving = :omschrijving, duur = :duur, status_id = :status_id, lijst_id = :lijst_id WHERE id = :id";
 	$query = $db->prepare($sql);
 	$query->execute(array(
 		':id' => $id,
