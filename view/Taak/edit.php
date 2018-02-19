@@ -6,8 +6,8 @@
 		<input type="text" name="naam" value="<?= $taak['naam']; ?>">
 		<input type="text" name="omschrijving" value="<?= $taak['omschrijving']; ?>">
 		<input type="text" name="duur" value="<?= $taak['duur']; ?>">
-		<input type="text" name="status" value="<?= $taak['status_id']; ?>">
-		<input type="text" name="lijst" value="<?= $taak['lijst_id']; ?>">
+		<input type="text" name="status_id" value="<?= $taak['status_id']; ?>">
+		<input type="text" name="lijst_id" value="<?= $taak['lijst_id']; ?>">
 		
 		<input type="submit" value="Aanpassen">
 	

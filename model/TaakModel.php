@@ -1,4 +1,4 @@
-5<?php
+<?php
 
 function getTaak($id) 
 {
@@ -29,12 +29,13 @@ function getAllTaken()
 
 function editTaak() 
 {
+	$id = isset($_POST['id']) ? $_POST['id'] : null;
 	$naam = isset($_POST['naam']) ? $_POST['naam'] : null;
 	$omschrijving = isset($_POST['omschrijving']) ? $_POST['omschrijving'] : null;
-	$duur = isset($_POST['naam']) ? $_POST['naam'] : null;
-	$status_id = isset($_POST['naam']) ? $_POST['naam'] : null;
-	$lijst_id = isset($_POST['naam']) ? $_POST['naam'] : null;
-	$id = isset($_POST['id']) ? $_POST['id'] : null;
+	$duur = isset($_POST['duur']) ? $_POST['duur'] : null;
+	$status_id = isset($_POST['status_id']) ? $_POST['status_id'] : null;
+	$lijst_id = isset($_POST['lijst_id']) ? $_POST['lijst_id'] : null;
+	
 	
 	if (strlen($naam) == 0 || strlen($omschrijving) == 0 || strlen($duur) == 0 || strlen($status_id) == 0 || strlen($lijst_id) == 0 || strlen($id) == 0){
 		return false;
@@ -45,12 +46,12 @@ function editTaak()
 	$sql = "UPDATE taken SET naam = :naam, omschrijving = :omschrijving, duur = :duur, status_id = :status_id, lijst_id, = :lijst_id, id = :id WHERE id = :id";
 	$query = $db->prepare($sql);
 	$query->execute(array(
+		':id' => $id,
 		':naam' => $naam,
 		':omschrijving' => $omschrijving,
 		':duur' => $duur,
 		':status_id' => $status_id,
-		':lijst_id' => $status_id,
-		':id' => $id));
+		':lijst_id' => $lijst_id));
 
 	$db = null;
 	
@@ -79,12 +80,12 @@ function createTaak()
 {
 	$naam = isset($_POST['naam']) ? $_POST['naam'] : null;
 	$omschrijving = isset($_POST['omschrijving']) ? $_POST['omschrijving'] : null;
-	$duur = isset($_POST['naam']) ? $_POST['naam'] : null;
-	$status_id = isset($_POST['naam']) ? $_POST['naam'] : null;
-	$lijst_id = isset($_POST['naam']) ? $_POST['naam'] : null;
+	$duur = isset($_POST['duur']) ? $_POST['duur'] : null;
+	$status_id = isset($_POST['status_id']) ? $_POST['status_id'] : null;
+	$lijst_id = isset($_POST['lijst_id']) ? $_POST['lijst_id'] : null;
 	$id = isset($_POST['id']) ? $_POST['id'] : null;
 	
-	if (strlen($naam) == 0 || strlen($omschrijving) == 0) {
+	if (strlen($naam) == 0 || strlen($omschrijving) == 0 || strlen($duur) == 0 || strlen($status_id) == 0 || strlen($lijst_id) == 0 || strlen($id) == 0){
 		return false;
 	}
 	
