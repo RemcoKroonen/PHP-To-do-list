@@ -9,16 +9,7 @@
 			<?php foreach ($_SESSION['STATUSSEN'] as $status) { ?>
 			<option value="<?= $status['id'];?>"><?= $status['naam']?></option>
 			<?php } ?>
-
-
-
-
-
-<!-- 			<option value="1"">Klaar</option>
-			<option value="2"">Gestart</option>
-			<option value="3"">Gepland</option>
-			<option value="4"">Nog beginnen</option>
- -->		</select>
+		</select>
 
 		<input type="submit" value="Verzenden">
 	
