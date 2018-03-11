@@ -1,12 +1,12 @@
 <div class="container">
 	<h1>Edit</h1>
-	<form action="<?= URL ?>Lijst/editSave" method="post">
-
-		<input type="text" name="id" value="<?= $Lijst['id']; ?>">
-		<input type="text" name="naam" value="<?= $Lijst['naam']; ?>">
-		<input type="text" name="omschrijving" value="<?= $Lijst['omschrijving']; ?>">
+	<form action="<?= URL ?>lijst/editSave" method="post">
+	
+		<input type="text" name="naam" value="<?= $lijst['naam']; ?>">
+		<input type="text" name="omschrijving" value="<?= $lijst['omschrijving']; ?>">
 		
-		<input type="submit" value="Aanpassen">
+		<input type="hidden" name="id" value="<?= $lijst['id']; ?>">
+		<input type="submit" value="Verzenden">
 	
 	</form>
 

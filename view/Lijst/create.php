@@ -1,9 +1,8 @@
 <div class="container">
-	<form action="<?= URL ?>Lijst/createSave" method="post">
+	<form action="<?= URL ?>lijst/createSave" method="post">
 	
-		<input type="text" name="naam" placeholder="naam">
-		<input type="text" name="omschrijving" placeholder="omschrijving">
-
+		<input type="text" name="naam" placeholder="Lijstnaam">
+		<input type="text" name="omschrijving" placeholder="Lijstomschrijving">
 
 		<input type="submit" value="Verzenden">
 	

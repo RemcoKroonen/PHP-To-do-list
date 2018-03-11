@@ -2,16 +2,18 @@
 
 require(ROOT . "model/LijstModel.php");
 
-function index()
+function index($id = "-")
 {
-	render("Lijst/index", array(
-		'lijsten' => getAlllijsten()
+	$_SESSION['HUIDIGELIJST'] = $id;
+	render("lijst/index", array(
+		'lijsten' => getAlllijsten(),
+		'taken' => getTakenForList($id)
 	));
 }
 
 function create()
 {
-	render("Lijst/create");
+	render("lijst/create");
 }
 
 function createSave()
@@ -21,13 +23,13 @@ function createSave()
 		exit();
 	}
 
-	header("Location:" . URL . "Lijst/index");
+	header("Location:" . URL . "lijst/index");
 }
 
 function edit($id)
 {
-	render("Lijst/edit", array(
-		'Lijst' => getLijst($id)
+	render("lijst/edit", array(
+		'lijst' => getLijst($id)
 	));
 }
 
@@ -38,7 +40,7 @@ function editSave()
 		exit();
 	}
 
-	header("Location:" . URL . "Lijst/index");
+	header("Location:" . URL . "lijst/index");
 } 
 
 function delete($id)
@@ -48,5 +50,49 @@ function delete($id)
 		exit();
 	}
 
-	header("Location:" . URL . "Lijst/index");
+	header("Location:" . URL . "lijst/index");
 }
+
+function createTaak()
+{
+	vulStatussen();
+	render("lijst/createtaak");
+}
+
+function createSaveTaak()
+{
+	if (!createTaakForList()) {
+		header("Location:" . URL . "error/index");
+		exit();
+	}
+
+	header("Location:" . URL . "lijst/index");
+}
+
+function deletetaak($id)
+{
+	if (!deletetaakvanLijst($id)) {
+		header("Location:" . URL . "error/index");
+		exit();
+	}
+
+	header("Location:" . URL . "lijst/index");
+}
+
+function edittaak($id)
+{
+	vulStatussen();
+	render("lijst/edittaak", array(
+		'taak' => getTaak($id)
+	));
+}
+
+function editSavetaak()
+{
+	if (!editTaakvanLijst()) {
+		header("Location:" . URL . "error/index");
+		exit();
+	}
+
+	header("Location:" . URL . "lijst/index");
+} 

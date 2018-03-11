@@ -10,14 +10,21 @@ function openDatabaseConnection()
 }
 
 
-function render($filename, $data = null)
+function render($filename, $lijstdata = null, $taakdata = null)
 {
-	if ($data) {
+	if ($lijstdata) {
 
-		foreach($data as $key => $value) {
+		foreach($lijstdata as $key => $value) {
 			$$key = $value;
 		}
 	} 
+
+	if ($taakdata) {
+
+		foreach($taakdata as $key => $value) {
+			$$key = $value;
+		}
+	}
 
 	require(ROOT . 'view/templates/header.php');
 	require(ROOT . 'view/' . $filename . '.php');

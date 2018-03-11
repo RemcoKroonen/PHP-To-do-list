@@ -1,0 +1,825 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tr",
+				"tr\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "view/lijst/index.php",
+			"settings":
+			{
+				"buffer_size": 1210,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "core/core.php",
+			"settings":
+			{
+				"buffer_size": 683,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "controller/LijstController.php",
+			"settings":
+			{
+				"buffer_size": 1474,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "core/route.php",
+			"settings":
+			{
+				"buffer_size": 1145,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "view/lijst/edittaak.php",
+			"settings":
+			{
+				"buffer_size": 511,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "view/lijst/createtaak.php",
+			"settings":
+			{
+				"buffer_size": 761,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "core/config.php",
+			"settings":
+			{
+				"buffer_size": 490,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "model/LijstModel.php",
+			"settings":
+			{
+				"buffer_size": 4874,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows",
+				"name": "Xdebug Context",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "|+| \"$id\"\n|+| \"$naam\"\n|+| \"$omschrijving\"\n|+| \"$url['params']\"\n|+| \"$url['controller']\"\n|+| \"$url['action']\"\n|+| \"$$key\"\n|+| \"$taken[0]\"\n|+| \"$lijstid\"\n|+| \"$eerste\"\n|+| \"$sql\"\n|+| \"$_SESSION['STATUSSEN'][0]\"\n",
+			"settings":
+			{
+				"buffer_size": 209,
+				"line_ending": "Windows",
+				"name": "Xdebug Watch",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows",
+				"name": "Xdebug Stack",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "=> C:\\Temp\\RemcoDev\\phpToDo\\controller\\LijstController.php\n\t|+| 59\n",
+			"settings":
+			{
+				"buffer_size": 67,
+				"line_ending": "Windows",
+				"name": "Xdebug Breakpoint",
+				"read_only": true,
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 170.0,
+		"last_filter": "reinde",
+		"selected_items":
+		[
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"syntax ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"preferece",
+				"Preferences: Browse Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Install Package Control"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"PHP",
+				"Set Syntax: PHP"
+			]
+		],
+		"width": 524.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Temp/RemcoDev/phpToDo",
+		"/C/Temp/RemcoDev/phpToDo/controller",
+		"/C/Temp/RemcoDev/phpToDo/core",
+		"/C/Temp/RemcoDev/phpToDo/model",
+		"/C/Temp/RemcoDev/phpToDo/public",
+		"/C/Temp/RemcoDev/phpToDo/public/js",
+		"/C/Temp/RemcoDev/phpToDo/view",
+		"/C/Temp/RemcoDev/phpToDo/view/home",
+		"/C/Temp/RemcoDev/phpToDo/view/lijst",
+		"/C/Temp/RemcoDev/phpToDo/view/templates"
+	],
+	"file_history":
+	[
+		"/C/Temp/RemcoDev/phpToDo/core/route.php",
+		"/C/Temp/RemcoDev/phpToDo/view/lijst/deletetaak.php",
+		"/C/Temp/RemcoDev/phpToDo/view/lijst/edittaak.php",
+		"/C/Temp/RemcoDev/phpToDo/public/js/phptodojs.js",
+		"/C/Temp/RemcoDev/phpToDo/core/core.php",
+		"/C/Temp/RemcoDev/phpToDo/controller/LijstController.php",
+		"/C/Temp/RemcoDev/phpToDo/view/templates/header.php",
+		"/C/Temp/RemcoDev/phpToDo/model/LijstModel.php",
+		"/C/Temp/RemcoDev/phpToDo/view/lijst/index.php",
+		"/C/Temp/RemcoDev/studentapp/view/student/index.php",
+		"/C/Temp/RemcoDev/Kieswijzer/index.html",
+		"/C/Temp/RemcoDev/phpToDo/view/lijst/createtaak.php",
+		"/C/Temp/RemcoDev/phpToDo/controller/HomeController.php",
+		"/C/Temp/RemcoDev/phpToDo/controller/ErrorController.php",
+		"/C/Temp/RemcoDev/phpToDo/view/templates/footer.php",
+		"/C/Temp/RemcoDev/phpToDo/view/home/index.php",
+		"/C/Temp/RemcoDev/phpToDo/public/index.php",
+		"/C/Temp/RemcoDev/phpToDo/view/lijst/edit.php",
+		"/C/Temp/RemcoDev/phpToDo/view/lijst/create.php",
+		"/C/Temp/RemcoDev/phpToDo/phpToDo.sublime-project",
+		"/C/Temp/RemcoDev/phpToDo/view/lijst/delete.php",
+		"/C/Temp/RemcoDev/phpToDo/core/config.php",
+		"/C/Users/akroo/AppData/Roaming/Sublime Text 3/Packages/User/View In Browser.sublime-settings",
+		"/C/Temp/RemcoDev/phpToDoJQ/data_lijsten.php",
+		"/C/Temp/RemcoDev/phpToDoJQ/data_taken.php",
+		"/C/Temp/RemcoDev/phpToDoJQ/index.php",
+		"/C/Temp/RemcoDev/phpToDoJQ/connect.php",
+		"/C/Temp/RemcoDev/phptodolist (2).sql",
+		"/C/Temp/RemcoDev/phpToDoSimpel/index.php",
+		"/C/Temp/RemcoDev/phpToDo/public/js/show.js",
+		"/C/Temp/RemcoDev/phpToDo/view/Lijst/toontaken.php",
+		"/C/Temp/RemcoDev/phpToDo/view/Lijst/index.php",
+		"/C/Temp/RemcoDev/phpToDo/public/js/bootstrap.min.js",
+		"/C/Temp/RemcoDev/phpToDo/phptodolist.sql",
+		"/C/Temp/RemcoDev/phpToDo/phptodolist (1).sql"
+	],
+	"find":
+	{
+		"height": 49.0
+	},
+	"find_in_files":
+	{
+		"height": 140.0,
+		"where_history":
+		[
+			"<open folders>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"session",
+			"deletetaak",
+			"td",
+			"tr",
+			"getalltaken",
+			"<H1>",
+			"<H1",
+			"opgegeven",
+			"niets",
+			"$_POST",
+			"firstname",
+			"student",
+			"Student",
+			"Strudents",
+			"student",
+			"Student",
+			"student",
+			"students"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"th",
+			"td",
+			"lijst",
+			"Lijst",
+			"Lijsten",
+			"lijst",
+			"Lijst",
+			"lijst",
+			"lijsten"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "view/lijst/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1210,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								951,
+								951
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 114.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "core/core.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 683,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								366,
+								366
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "controller/LijstController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1474,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								877,
+								877
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 788.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "core/route.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1145,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								705,
+								705
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 408.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "view/lijst/edittaak.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 511,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								266,
+								266
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "view/lijst/createtaak.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 761,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								518,
+								518
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "core/config.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 490,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "model/LijstModel.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4874,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2116,
+								2126
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1767.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 8,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								209,
+								209
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 10,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 67,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								67,
+								67
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 40.0
+	},
+	"input":
+	{
+		"height": 52.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				2,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.7,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.xdebug":
+	{
+		"height": 132.0
+	},
+	"pinned_build_system": "",
+	"project": "phpToDo.sublime-project",
+	"replace":
+	{
+		"height": 74.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false,
+			"restore_index":
+			{
+				"15":
+				{
+					"group": 0,
+					"index": 0
+				},
+				"27":
+				{
+					"group": 0,
+					"index": 1
+				},
+				"67":
+				{
+					"group": 0,
+					"index": 2
+				}
+			},
+			"restore_layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						2,
+						1
+					],
+					[
+						0,
+						1,
+						1,
+						2
+					],
+					[
+						1,
+						1,
+						2,
+						2
+					]
+				],
+				"cols":
+				[
+					0.0,
+					0.473061576685,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					0.7,
+					1.0
+				]
+			}
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 217.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
