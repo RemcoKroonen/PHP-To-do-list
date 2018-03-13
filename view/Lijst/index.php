@@ -11,13 +11,16 @@
 	<a href="<?= URL ?>lijst/create">Toevoegen</a>
 	<a href="<?= URL ?>lijst/edit/<?php echo $_SESSION['HUIDIGELIJST']; ?>" >Bewerken</a>
 	<a href="<?= URL ?>lijst/delete/<?php echo $_SESSION['HUIDIGELIJST']; ?>" >Verwijderen</a>
+	
+	<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Zoek voor taken" title="Type in a name">
+
 
 	<table border="1" id="Takentabel">
 		<tr>
-			<th onclick="javascript:sortTable(0)">Naam</th>
-			<th onclick="javascript:sortTable(1)">Omschrijving</th>
-			<th onclick="javascript:sortTable(2)">Duur</th>
-			<th onclick="javascript:sortTable(3)">Status</th>
+			<th onclick="sortTable(0)">Naam</th>
+			<th onclick="sortTable(1)">Omschrijving</th>
+			<th onclick="sortTable(2)">Duur</th>
+			<th onclick="sortTable(3)">Status</th>
 			<th colspan="2">Actie</th>
 
 		</tr>
@@ -34,5 +37,6 @@
 		<?php }?>
 	</table>
 	<a href="<?= URL ?>lijst/createTaak">Toevoegen taak</a>
+
 
 </div>

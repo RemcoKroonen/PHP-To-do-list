@@ -107,6 +107,7 @@ function getTakenForList($lijstid = null)
 	$db = openDatabaseConnection();
 
 	$sql = "SELECT taken.*,statussen.naam AS statusnaam FROM taken INNER JOIN statussen ON taken.status_id = statussen.id WHERE lijst_id = :lijst_id";
+	// $sql = "SELECT * FROM taken WHERE lijst_id = :lijst_id";
 	$query = $db->prepare($sql);
 	$query->execute(array(
 		':lijst_id' => $lijstid));
