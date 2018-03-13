@@ -12,12 +12,12 @@
 	<a href="<?= URL ?>lijst/edit/<?php echo $_SESSION['HUIDIGELIJST']; ?>" >Bewerken</a>
 	<a href="<?= URL ?>lijst/delete/<?php echo $_SESSION['HUIDIGELIJST']; ?>" >Verwijderen</a>
 
-	<table border="1">
+	<table border="1" id="Takentabel">
 		<tr>
-			<th>Naam</th>
-			<th>Omschrijving</th>
-			<th>Duur</th>
-			<th>Status</th>
+			<th onclick="javascript:sortTable(0)">Naam</th>
+			<th onclick="javascript:sortTable(1)">Omschrijving</th>
+			<th onclick="javascript:sortTable(2)">Duur</th>
+			<th onclick="javascript:sortTable(3)">Status</th>
 			<th colspan="2">Actie</th>
 
 		</tr>
