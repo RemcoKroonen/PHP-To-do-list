@@ -12,8 +12,8 @@
 	<a href="<?= URL ?>lijst/edit/<?php echo $_SESSION['HUIDIGELIJST']; ?>" >Bewerken</a>
 	<a href="<?= URL ?>lijst/delete/<?php echo $_SESSION['HUIDIGELIJST']; ?>" >Verwijderen</a>
 	
-	<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Zoek voor taken" title="Type in a name">
-
+	<input type="text" id="statusInput" onkeyup="Statusfilter()" placeholder="Zoek voor status" title="Type in a name">
+	<input type="text" id="duurInput" onkeyup="Duurfilter()" placeholder="Zoek voor duur" title="Type in a name">
 
 	<table border="1" id="Takentabel">
 		<tr>
